@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	<style>
+		h1 {
+			margin-top: 3em;
+			margin-bottom: 1em;
+		}
+		.scene {
+			height: 350px;
+		}
+		.gameboy {
+			position: relative;
+			width: 400px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body style="background: #eef2fe; font-family: 'Arvo', serif;">
+<div class="container">
+	<h1>NFT FrontEnd</h1>
+
+	<div class="sign-in" style="display: none;">
+		<p>You'll need to sign in to call contract methods:</p>
+		<button class="btn btn-primary" style="background-color: #0072CE;">Sign In</button>
+	</div>
+
+	<div class="after-sign-in" style="display: none;">
+		<div class="scene">
+			<div class="gameboy">
+				<img src="" alt="" id="image" width="400" height="300"/>
+			</div>
+		</div>
+		<div class="sign-out">
+			<button class="btn btn-primary" style="background-color: #0072CE;">Sign Out</button>
+		</div>
+	</div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "nft-frontend",
+  "description": "nft frontend",
+  "version": "0.0.1",
+  "license": "(MIT AND Apache-2.0)",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.5"
+  },
+  "dependencies": {
+    "near-api-js": "0.43.1",
+    "regenerator-runtime": "0.13.9"
+  }
+}
